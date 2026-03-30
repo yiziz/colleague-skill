@@ -39,7 +39,7 @@ and get an **AI Skill that actually works like them**
 |--------|:--------:|:-----------:|:------------:|-------|
 | Feishu (auto) | ✅ API | ✅ | ✅ | Just enter a name, fully automatic |
 | DingTalk (auto) | ⚠️ Browser | ✅ | ✅ | DingTalk API doesn't support message history |
-| PDF | ✅ | — | — | Manual upload |
+| PDF | — | ✅ | — | Manual upload |
 | Images / Screenshots | ✅ | — | — | Manual upload |
 | Feishu JSON export | ✅ | ✅ | — | Manual upload |
 | Email `.eml` / `.mbox` | ✅ | — | — | Manual upload |
