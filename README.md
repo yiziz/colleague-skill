@@ -40,7 +40,6 @@
 | 飞书（自动采集） | ✅ API | ✅ | ✅ | 输入姓名即可，全自动 |
 | 钉钉（自动采集） | ⚠️ 浏览器 | ✅ | ✅ | 钉钉 API 不支持历史消息 |
 | Slack（自动采集） | ✅ API | — | — | 需管理员安装 Bot；免费版限 90 天 |
-| 企业微信（浏览器采集） | ✅ 浏览器 | — | — | 扫码登录；文档需手动上传 |
 | PDF | — | ✅ | — | 手动上传 |
 | 图片 / 截图 | ✅ | — | — | 手动上传 |
 | 飞书 JSON 导出 | ✅ | ✅ | — | 手动上传 |
@@ -180,7 +179,6 @@ create-colleague/
 │   ├── feishu_mcp_client.py      # 飞书 MCP 方案
 │   ├── dingtalk_auto_collector.py # 钉钉全自动采集
 │   ├── slack_auto_collector.py   # Slack 全自动采集
-│   ├── wecom_browser_collector.py # 企业微信浏览器采集
 │   ├── email_parser.py           # 邮件解析
 │   ├── skill_writer.py           # Skill 文件管理
 │   └── version_manager.py        # 版本存档与回滚
